@@ -1,0 +1,338 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-image: url('./image/R.jpg');
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+.header{
+  background-color: greenyellow;
+  display: flex;
+  justify-content: space-between;
+}
+.header-logo{
+  margin-left: 10%;
+  padding: 1%;
+  font-size: 25px;
+  font-weight: bold;
+}
+.header-button{
+  margin-right: 10%;
+  padding: 1%;
+}
+.header-button button{
+  background-color: white;
+  color: green;
+  font-size: 20px;
+  padding: 10%;
+  width: 150%;
+  height: 8vh;
+  border-radius: 23px;
+  border: none;
+}
+.home{
+  width: auto;
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  background-image:url('./image/R.jpg');
+}
+.home-left{
+  background-color: green;
+  padding: 5%;
+  color: white;
+}
+.home-left h2{
+  font-size: 45px;
+  text-align: center;
+  
+}
+.home-left h3{
+  font-size: 15px;
+  text-align: center;
+  padding: 5%;
+  
+}
+.home-left-innerbox{
+  background-color: white;
+  color: green;
+  padding: 5%;
+  width: 100%;
+}
+
+.home-right-form{
+  background-color: white;
+  width: 20vw;
+  height: 70vh;
+  padding: 15%;
+  margin-top: 10%;
+  
+}
+.home-right-form h4{
+  text-align: center;
+}
+.home-right-form input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.home-right-form button{
+  width: 100%;
+  background-color: green;
+  color: white;
+  padding: 5%;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 5%;
+}
+.container{
+  width: 80vw;
+  height: 80vh;
+  background-color: white;
+  color: green;
+  display: flex;
+  justify-content: space-around;
+  margin-top: 5%;
+  margin-left: 10%;
+  margin-bottom: 5%;
+}
+.container-left h1{
+ text-align: center;
+ margin-top: 10%;
+}
+.container-left-contain{
+  margin-top: 5%;
+  padding: 5%;
+  width: 75%;
+  height: 55%;
+  box-shadow: 5px 5px #888888;
+  border: 2px solid gray;
+  margin-left: 15%;
+}
+.container-left-contain h3{
+  text-align: center;
+  font-size: 35px;
+}
+.container-left-contain h4{
+  margin-top: 2%;
+  text-align: center;
+  margin-bottom: 15px;
+}
+.container-left-contain p{
+  font-size: 15p;
+}
+.container-right{
+  background-color: white;
+  width: 50%;
+  height: 70vh
+}
+.container-right-form{
+  background-color: white;
+  width: 30vw;
+  height: 70vh;
+  padding: 15%;
+  margin-top: 10%;
+}
+.container-right-form h4{
+  text-align: center;
+}
+.container-right-form input[type=text], select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+.container-right-form button{
+  width: 100%;
+  background-color: green;
+  color: white;
+  padding: 5%;
+  border-radius: 5px;
+  text-align: center;
+  margin-top: 5%;
+}
+.container2{
+  background-color: green;
+  display: flex;
+  justify-content:space-around;
+  padding: 8%;
+}
+.container2-left{
+  padding: 2%;
+}
+.container2-left h2{
+  margin-bottom: 15px;
+  text-align: center;
+}
+.container2-left p{
+  margin-bottom: 20px;
+}
+.container2-button{
+  display: flex;
+  justify-content: center;
+  margin-top: 12px;
+}
+.container2-button button{
+  background-color: green;
+  color:white;
+  font-size: 10px;
+  padding:3%;
+  width: 30%;
+  height: 2vh;
+  border: 2px solid white;
+  border-radius: 23px;
+}
+.container2-button button:hover{
+ 
+  opacity: 0.5;
+  cursor: pointer;
+}
+.amenities-top{
+  background-color: aliceblue;
+  margin: 6%;
+  height: 15vh;
+
+}
+.amenities-top h2{
+text-align: center;
+color: lightgreen;
+font-size: 25px;
+}
+.amenities-top p{
+  text-align: center;
+  margin-top: 12px;
+}
+.amenities-bottom{
+  margin-top: 2%;
+  height: 100vh;
+
+  background-color: aliceblue;
+}
+.amenities-bottom{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 6%;
+}
+.amenities-icon-list{
+  font-size: 80px;
+  color: lightgreen;
+  margin-left: 10%;
+  margin-top: 4%;
+}
+
+.amenities-icon-list h6{
+  font-size: 15px;
+  margin-left: 5px;
+  font-weight: none;
+}
+.Adress-container{
+  
+  display: flex;
+}
+.Adress{
+  background-color: aliceblue;
+height: 100vh;
+
+}
+.Adress h1{
+  padding-top: 5%;
+  text-align: center;
+  color:black;
+  text-transform: uppercase;
+  margin-top: 50px;
+  font-weight:0px;
+
+}
+.map{
+  margin-left: 5%;
+  margin: 5%; 
+}
+.Adress-content{
+ margin-top: 8%;
+}
+.Adress-content-list{
+  width: 300px;
+  border: 2px gray solid;
+}
+
+.Adress-content-list-header{
+  display: flex;
+  justify-content: space-between;
+
+}
+.gallery{
+  width: auto;
+  height: auto;
+  background-color: aliceblue;
+}
+.gallery-header {
+  text-align: center;
+  padding: 5%;
+  background:aliceblue;
+}
+.gallery-header h1{
+  padding: 3%;
+}
+
+#gallery {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  padding: 0 4px;
+}
+
+#gallery img {
+  width: 33%;
+  height: 300px;
+  object-fit: cover;
+  margin-top: 8px;
+  padding: 0 4px;
+  border-radius: 10px;
+}
+
+@media (max-width: 800px) {
+  #gallery img {
+    width: 50%;
+  }
+}
+@media (max-width: 600px) {
+  #gallery img {
+    width: 100%;
+  }
+}
+.About-section{
+  width: 100%;
+  background-color: white;
+
+}
+.About-section h1{
+  padding-top: 5%;
+  text-align: center;
+}
+.About-section p{
+  padding: 2%;
+  text-align: center;
+}
+.Contact-section{
+  background-color: black;
+  padding: 5%;
+}
+.Contact-section p{
+  color: white;
+  text-align: center;
+}
